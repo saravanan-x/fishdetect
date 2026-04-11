@@ -29,7 +29,7 @@ sensor_data = {
 chart_data = {'labels': [], 'values': []}  # For JS chart
 
 # Load custom YOLO model (your best.pt file - place it in the same directory as this script)
-model = YOLO('best.pt')  # CHANGED: Use your custom model instead of yolov8n.pt
+model = YOLO('seafish.pt')  # CHANGED: Use your custom model instead of yolov8n.pt
 
 def fetch_and_process_frame():
     global latest_frame, latest_detections
